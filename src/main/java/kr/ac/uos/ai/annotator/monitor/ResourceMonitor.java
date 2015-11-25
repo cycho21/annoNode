@@ -78,6 +78,7 @@ public class ResourceMonitor {
             try {
 // get the CPU information from the sigar library
                 cpuInfoList = sigar.getCpuInfoList();
+                System.out.println("This is length : " + cpuInfoList.length);
 // if something foes wrong
             } catch (SigarException e) {
 // write a description of the problem to the output
