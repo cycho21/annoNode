@@ -24,5 +24,12 @@ public class ActiveMQManager {
 	public void setMqueueName(String mqueueName) {
 		this.mqueueName = mqueueName;
 	}
-	
+
+	public Receiver getReceiver() {
+		return receiver;
+	}
+
+	public void setReceiver(Receiver receiver) {
+		this.receiver = receiver;
+	}
 }
